@@ -423,12 +423,24 @@ sup {
   background-image: url(images/borderblue.png);
   background-repeat: no-repeat;
   background-position: center;
-
 }
+.scaled {
+  background-color: #2c71b8;
+  background-image: url(images/borderwhite.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .like {
   top: 49px;
   left: 229px;
   background-image: url(images/likeblue.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.liked {
+  background-color: #2c71b8;
+  background-image: url(images/likewhite.png);
   background-repeat: no-repeat;
   background-position: center;
 }
