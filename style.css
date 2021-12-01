@@ -393,6 +393,9 @@ button {
 span {
   font-weight: bold;
 }
+sup {
+  font-size: 28px;
+}
 [class*="device-"] {
   position: relative;
   height: 178px;
