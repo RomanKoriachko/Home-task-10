@@ -424,11 +424,9 @@ sup {
   background-repeat: no-repeat;
   background-position: center;
 }
-.scaled {
+.scale:hover {
   background-color: #2c71b8;
   background-image: url(images/borderwhite.png);
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .like {
@@ -438,12 +436,16 @@ sup {
   background-repeat: no-repeat;
   background-position: center;
 }
-.liked {
+.like:hover {
+  background-color: #2c71b8;
+  background-image: url(images/likewhite.png);
+}
+/* .liked {
   background-color: #2c71b8;
   background-image: url(images/likewhite.png);
   background-repeat: no-repeat;
   background-position: center;
-}
+} */
 
 .cart-text {
   height: 470px;
@@ -482,9 +484,24 @@ sup {
   margin-top: 10px;
   background-color: #2c71b8;
 }
+.details:hover {
+  color: #2c71b8;
+  background-color: white;
+}
 .add-cart {
   margin-top: 15px;
+  padding-right: 27px;
   background-color: rgba(255, 255, 255, 0.2);
+  background-image: url(images/basketwhite.png);
+  background-repeat: no-repeat;
+  background-position: 92%;
+}
+.add-cart:hover {
+  color: #2c71b8;
+  background-color: white;
+  background-image: url(images/basket.png);
+  background-repeat: no-repeat;
+  background-position: 92%;
 }
 .basketwhite {
   margin-left: 10px;
