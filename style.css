@@ -47,31 +47,36 @@ body {
 .col-1 {
   width: 8.33333%;
 }
-
 .col-2 {
   width: 16.66667%;
 }
-
 .col-3 {
   width: 25%;
 }
-
 .col-4 {
   width: 33.33333%;
 }
-
+.col-5 {
+  width: 41.66666%;
+}
 .col-6 {
   width: 50%;
 }
-
+.col-7 {
+  width: 58.33331%;
+}
 .col-8 {
   width: 66.66667%;
 }
-
 .col-9 {
   width: 75%;
 }
-
+.col-10 {
+width: 83.33333%;
+}
+.col-11 {
+  width: 91.66663%;
+}
 .col-12 {
   width: 100%;
 }
@@ -419,7 +424,7 @@ sup {
 }
 .scale {
   top: 9px;
-  left: 229px;
+  right: 9px;
   background-image: url(images/borderblue.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -431,7 +436,7 @@ sup {
 
 .like {
   top: 49px;
-  left: 229px;
+  right: 9px;
   background-image: url(images/likeblue.png);
   background-repeat: no-repeat;
   background-position: center;
