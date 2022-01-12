@@ -302,6 +302,7 @@ input[type="checkbox"] {
   display: none;
 }
 .label-text {
+  
   position: relative;
   top: -15px;
   left: 24px;
@@ -491,7 +492,8 @@ sup {
   background-position: center;
 }
 .scale:hover {
-  background-color: #2c71b8;
+  background-color: transparent;
+  border-color: white;
   background-image: url(images/borderwhite.png);
 }
 
@@ -502,17 +504,14 @@ sup {
   background-repeat: no-repeat;
   background-position: center;
 }
-.like:hover {
-  background-color: #2c71b8;
+/* .like:hover {
+  background-color: transparent;
+  border-color: white;
   background-image: url(images/likewhite.png);
-}
-/* .liked {
-  background-color: #2c71b8;
-  background-image: url(images/likewhite.png);
-  background-repeat: no-repeat;
-  background-position: center;
 } */
-
+#clicked {
+  background-color: #2c71b8;
+}
 .cart-text {
   height: 470px;
   padding-left: 10px;
