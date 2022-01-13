@@ -39,11 +39,29 @@ detailsButton.forEach((item) => {
 
 btnClose.addEventListener("click", closeModal);
 
+let isNotTriggered = true;
+window.onscroll = function(){
+    
+    const scrolling = window.scrollY;
+    console.log(scrolling);
+    if(scrolling > 1200 && isNotTriggered == true){
+        modalForm.classList.add("show");
+        isNotTriggered = false;
+    } else {
+        modalForm.classList.add("hide");
+    } 
+}
+
+
 $(document).ready(function(){
     $('.slider').slick({
-        dots:true,
+        dots: true,
+        autoplay: true,
+        autoplatSpeed: 3000,
     });
-  });
+});
+
+
 
 
 
