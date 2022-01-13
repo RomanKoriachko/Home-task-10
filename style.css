@@ -280,7 +280,7 @@ button {
   bottom: 20px !important;
 }
 .slider .slick-prev,.slider .slick-next {
-  top: 47%;
+  top: 50%;
 }
 .slider .slick-prev {
   left: -10px;
@@ -557,6 +557,7 @@ sup {
 }
 .like:hover{
   background-color: transparent;
+  border-color: white;
   background-image: url(images/likewhite.png);
 }
 .clicked {
