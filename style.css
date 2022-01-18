@@ -182,8 +182,7 @@ li:hover > a .down {
   height: 40px;
 }
 
-.search input,
-button {
+.search input,.search-btn {
   float: left;
 }
 
@@ -193,7 +192,7 @@ button {
   border: none;
   outline: none;
   padding: 0;
-  margin-right: 18px;
+  margin-right: 15px;
 
   color: #2c71b8;
   font-size: 21px;
@@ -323,7 +322,6 @@ button {
 }
 
 .main-conteiner {
-  height: 2336px;
   width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
@@ -501,7 +499,7 @@ input[type="checkbox"] {
 }
 
 .card {
-  height: 650px;
+  height: 680px;
   border: 1px solid white;
   margin-bottom: 30px;
   font-size: 21px;
@@ -565,7 +563,7 @@ sup {
   background-image: url(images/likewhite.png);
 }
 .cart-text {
-  height: 470px;
+  min-height: 500px;
   padding-left: 10px;
   padding-right: 20px;
   background-color: rgba(44, 113, 184, 0.75);
@@ -588,6 +586,9 @@ sup {
   left: 170px;
   font-weight: bold;
   font-size: 24px;
+}
+.product-quantity{
+  margin-left: 10px;
 }
 .cart-btn {
   width: 210px;
@@ -627,6 +628,7 @@ sup {
   text-align: center;
   font-size: 36px;
   color: white;
+  margin-bottom: 50px;
 }
 .load-more>a {
   color: white;
