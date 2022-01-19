@@ -80,6 +80,8 @@ let decrementBtns = document.querySelectorAll(".decrement-button");
 let incrementBtns = document.querySelectorAll(".increment-button");
 let quantityInput = document.querySelectorAll(".product-quantity input");
 
+
+// для всех счетчиков
 decrementBtns.forEach((item) => {
     item.addEventListener("click", function(){
         let thisInput = this.parentElement.querySelector(".input");
@@ -113,19 +115,6 @@ incrementBtns.forEach((item) => {
         }
     });
 })
-
-
-// function chekingMinValue() {
-//     if(thisInput.value <= 1){
-//         decrementBtns.disabled = true;
-//     }
-// }
-// function chekingMaxValue() {
-//     if(thisInput.value >= 10){
-//         incrementBtns.disabled = true;
-//     }
-// }
-
 
 
 
